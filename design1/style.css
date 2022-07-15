@@ -1,0 +1,95 @@
+html {
+  background-image: url("../images/bliss.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.survey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #44b1e5;
+  width: 550px;
+  height: 550px;
+}
+.quotes {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote1 {
+  display: block;
+  width: 450px;
+  height: 300px;
+  border-radius: 2%;
+}
+
+.quote2 {
+  display: none;
+  width: 450px;
+  height: 300px;
+}
+
+.quote3 {
+  display: none;
+  width: 450px;
+  height: 300px;
+}
+
+.quote4 {
+  display: none;
+  width: 450px;
+  height: 300px;
+}
+
+.quote5 {
+  display: none;
+  width: 450px;
+  height: 300px;
+}
+
+.quote6 {
+  display: none;
+  width: 450px;
+  height: 300px;
+}
+
+.buttons {
+  display: flex;
+  width: 450px;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: white;
+}
+.cat {
+  width: 100px;
+  height: 100px;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+}
+
+.arrow-button {
+  margin-left: 15px;
+  background-color: rgba(128, 128, 128, 0.978);
+  color: white;
+}
+
+.arrow-button:hover {
+  background-color: orange;
+}
