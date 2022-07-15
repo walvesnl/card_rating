@@ -48,22 +48,40 @@ body {
   }
 }
 
-.buttons {
+.stars {
   display: flex;
   width: 450px;
   justify-content: space-evenly;
 }
 
-.button1 {
-  background-color: white;
+.star-rating {
+  font-size: 0;
 }
-
-.button2 {
-  background-color: white;
+.star-rating__wrap {
+  display: inline-block;
+  font-size: 2rem;
 }
-
-.button3 {
-  background-color: white;
+.star-rating__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.star-rating__ico {
+  float: right;
+  padding-left: 40px;
+  cursor: pointer;
+  color: white;
+}
+.star-rating__ico:last-child {
+  padding-left: 0;
+}
+.star-rating__input {
+  display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before {
+  color: #ff8000;
+  content: "\f005";
 }
 
 .cat {
