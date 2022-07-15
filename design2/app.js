@@ -12,7 +12,7 @@ function currentQuote(n) {
 function showQuotes(n) {
   let i;
   let quotes = document.getElementsByClassName("quotes");
-  let buttons = document.querySelector(".buttons");
+  let stars = document.querySelector(".stars");
   let arrow = document.querySelector(".arrow-button");
 
   if (n > quotes.length) {
@@ -29,6 +29,6 @@ function showQuotes(n) {
 
   if (quotesIndex === 7) {
     arrow.style.display = "none";
-    buttons.style.display = "none";
+    stars.style.display = "none";
   }
 }
