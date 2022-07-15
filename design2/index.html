@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Card Rating</title>
+  </head>
+  <body>
+    <div class="survey">
+      <p>How do you feel about these quotes?</p>
+      <div class="quotes-list">
+        <img
+          class="quotes fade"
+          src="../images/img_statement_1.png"
+          alt="a wise quote"
+        />
+
+        <img
+          class="quotes fade"
+          src="../images/img_statement_2.png"
+          alt="a wise quote"
+        />
+
+        <img
+          class="quotes fade"
+          src="../images/img_statement_3.png"
+          alt="a wise quote"
+        />
+
+        <img
+          class="quotes fade"
+          src="../images/img_statement_4.png"
+          alt="a wise quote"
+        />
+
+        <img
+          class="quotes fade"
+          src="../images/img_statement_5.png"
+          alt="a wise quote"
+        />
+
+        <img
+          class="quotes fade"
+          src="../images/img_statement_6.png"
+          alt="a wise quote"
+        />
+        
+        <img class="quotes" src="../images/img_control_tool_finish.svg" alt="this is the end" style="height:100px; width: 100px;">
+    </div>
+     
+      </br>
+      <div class="buttons">
+        <figure>
+          <button class="button1" onclick="nextQuote(1)">
+            <img class="cat" src="../images/img_cat_supersad.png" />
+          </button>
+          <figcaption>Hiss</figcaption>
+        </figure>
+
+        <figure>
+          <button class="button2" onclick="nextQuote(1)">
+            <img class="cat" src="../images/img_cat_neutral.png" />
+          </button>
+          <figcaption>Meow</figcaption>
+        </figure>
+
+        <figure>
+          <button class="button3" onclick="nextQuote(1)">
+            <img class="cat" src="../images/img_cat_happy.png" />
+          </button>
+          <figcaption>Prrr</figcaption>
+        </figure>
+      </div>
+    </div>
+    <button class="arrow-button" onclick="nextQuote(1)">></button>
+    <script src="app.js"></script>
+  </body>
+</html>
