@@ -12,6 +12,8 @@ function currentQuote(n) {
 function showQuotes(n) {
   let i;
   let quotes = document.getElementsByClassName("quotes");
+  let buttons = document.querySelector(".buttons");
+  let arrow = document.querySelector(".arrow-button");
 
   if (n > quotes.length) {
     quotesIndex = 1;
