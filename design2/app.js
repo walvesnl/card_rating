@@ -14,6 +14,7 @@ function showQuotes(n) {
   let quotes = document.getElementsByClassName("quotes");
   let stars = document.querySelector(".stars");
   let arrow = document.querySelector(".arrow-button");
+  let label = document.querySelector(".rating-label");
 
   if (n > quotes.length) {
     quotesIndex = 1;
@@ -30,5 +31,6 @@ function showQuotes(n) {
   if (quotesIndex === 7) {
     arrow.style.display = "none";
     stars.style.display = "none";
+    label.style.display = "none";
   }
 }

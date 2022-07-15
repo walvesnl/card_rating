@@ -16,7 +16,6 @@ function nextQuote(n) {
 
   showQuotes((quotesIndex += n));
   selected = [false, false, false];
-  console.log("log in funct", selected);
 }
 
 console.log(selected);

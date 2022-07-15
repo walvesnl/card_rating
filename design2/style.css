@@ -84,17 +84,12 @@ body {
   content: "\f005";
 }
 
-.cat {
-  width: 100px;
-  height: 100px;
+.rating-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
 }
-figure {
-  margin: 0;
-}
-figcaption {
-  text-align: center;
-}
-
 .arrow-button {
   margin-left: 15px;
   background-color: rgba(128, 128, 128, 0.978);
