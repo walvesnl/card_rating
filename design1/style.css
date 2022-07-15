@@ -22,46 +22,16 @@ body {
   width: 550px;
   height: 550px;
 }
-.quotes {
+.quotes-list {
   display: flex;
   flex-direction: row;
 }
 
-.quote1 {
+.quotes {
   display: block;
   width: 450px;
   height: 300px;
   border-radius: 2%;
-}
-
-.quote2 {
-  display: none;
-  width: 450px;
-  height: 300px;
-}
-
-.quote3 {
-  display: none;
-  width: 450px;
-  height: 300px;
-}
-
-.quote4 {
-  display: none;
-  width: 450px;
-  height: 300px;
-}
-
-.quote5 {
-  display: none;
-  width: 450px;
-  height: 300px;
-}
-
-.quote6 {
-  display: none;
-  width: 450px;
-  height: 300px;
 }
 
 .buttons {
@@ -70,9 +40,18 @@ body {
   justify-content: space-evenly;
 }
 
-.button {
+.button1 {
   background-color: white;
 }
+
+.button2 {
+  background-color: white;
+}
+
+.button3 {
+  background-color: white;
+}
+
 .cat {
   width: 100px;
   height: 100px;
